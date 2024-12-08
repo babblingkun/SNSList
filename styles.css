@@ -36,3 +36,8 @@ h1 {
 .links a:hover {
     background-color: #ffcccb;
 }
+
+.links a:hover {
+    background-color: #ffcccb;
+    color: #000000;  /* 文字色を黒に変更 */
+}
