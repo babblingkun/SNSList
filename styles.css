@@ -3,13 +3,13 @@ body {
     background-image: url('background.jpg');
     background-attachment: fixed;
     background-size: cover;
-    background-position: center; /* 背景画像を中央に配置 */
+    background-position: center;
     margin: 0;
-    height: 100vh; /* ビューポートの高さを100%に設定 */
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* コンテンツを上下中央に配置 */
-    align-items: center; /* コンテンツを左右中央に配置 */
+    justify-content: center; 
+    align-items: center;
 }
 
 .container {
@@ -18,7 +18,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin-bottom: 30px; /* コンテンツとコピーライトの間にスペースを確保 */
+    margin-bottom: 30px;
 }
 
 h1 {
@@ -38,16 +38,15 @@ h1 {
 
 .links a:hover {
     background-color: #ffcccb;
-    color: #000000;  /* 文字色を黒に変更 */
+    color: #000000;
 }
 
-/* コピーライトのスタイル */
 footer {
     text-align: center;
     margin-top: 20px;
     font-size: 14px;
-    color: #ffffff; /* 文字色を白に設定 */
-    background-color: rgba(0, 0, 0, 0.5); /* 背景を薄い黒に */
+    color: #ffffff; 
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 10px;
     border-radius: 5px;
 }
